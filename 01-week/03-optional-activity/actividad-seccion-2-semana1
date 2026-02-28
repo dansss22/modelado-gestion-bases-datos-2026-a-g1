@@ -1,0 +1,45 @@
+
+seccion 2 
+
+### 1. ¿Qué pasaría si no definimos correctamente las claves de cada entidad desde el inicio?
+
+Si no se definen adecuadamente las claves primarias desde el inicio del diseño, pueden presentarse varios problemas en la base de datos:
+
+- Duplicidad de registros al no existir un identificador único.
+- Pérdida de integridad referencial en las relaciones entre entidades.
+- Dificultad para realizar consultas precisas.
+- Problemas al implementar claves foráneas.
+- Necesidad de rediseñar la estructura cuando el sistema ya esté avanzado.
+
+En conclusión, las claves primarias garantizan la identificación única de cada entidad y son fundamentales para la consistencia del modelo de datos.
+
+---
+
+### 2. ¿Qué ventajas aporta tener identificadas las entidades antes de pasar al diagrama ER formal?
+
+Identificar previamente las entidades permite:
+
+- Comprender claramente los elementos principales del sistema.
+- Evitar omitir información importante.
+- Definir correctamente los atributos de cada entidad.
+- Detectar relaciones antes de formalizarlas en el diagrama.
+- Facilitar el proceso de normalización.
+
+Esto permite que el diagrama ER sea más organizado, coherente y alineado con los requerimientos del sistema.
+
+---
+
+### 3. ¿Qué información adicional consideras crítica en un sistema académico que aún no hemos modelado?
+
+En un sistema académico, podría considerarse crítica la siguiente información:
+
+- Historial académico del estudiante.
+- Registro de calificaciones por periodo.
+- Control de asistencia.
+- Información detallada de los docentes (especialidad, carga académica).
+- Horarios y asignación de aulas.
+- Estados académicos del estudiante (activo, suspendido, graduado).
+- Prerrequisitos de las asignaturas.
+- Gestión de roles y permisos (administrador, docente, estudiante).
+
+
